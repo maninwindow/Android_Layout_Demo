@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/Relative_Layout.iml" filepath="$PROJECT_DIR$/Relative_Layout.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/Lineaer_Layout.iml" filepath="$PROJECT_DIR$/Lineaer_Layout.iml" />
+>>>>>>> b3b91e827da523e728be3b0555e86da37fd7e884
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
