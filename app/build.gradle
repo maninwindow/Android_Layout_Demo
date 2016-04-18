@@ -5,7 +5,11 @@ android {
     buildToolsVersion "23.0.3"
 
     defaultConfig {
+<<<<<<< HEAD
         applicationId "com.example.v_almett_pc.relative_layout"
+=======
+        applicationId "com.example.v_almett_pc.lineaer_layout"
+>>>>>>> b3b91e827da523e728be3b0555e86da37fd7e884
         minSdkVersion 19
         targetSdkVersion 23
         versionCode 1
