@@ -1,2 +1,2 @@
-# Android_Layout_Demo
-Android Layout Demo
+# Android_LinearLayout_Demo
+Android Linear Layout Demo
