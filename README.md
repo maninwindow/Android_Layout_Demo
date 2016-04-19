@@ -1,2 +1,2 @@
-# Android_Layout_Demo
-Android Layout Demo
+# Android_RelativeLayout_Demo
+Android Relative Layout Demo
