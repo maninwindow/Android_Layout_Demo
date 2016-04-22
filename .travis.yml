@@ -17,6 +17,7 @@ notifications:
         - maninwindow@hotmail.com
         
 cache: false
+sudo: required
 
 install:
     # Ensure Gradle wrapper is executable, download wrapper and show version
