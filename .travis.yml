@@ -1,9 +1,30 @@
-language: java
-before_cache:
-  - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
-cache:
-  directories:
-    - $HOME/.gradle/caches/
-    - $HOME/.gradle/wrapper/
+language: android
+
 jdk:
-  - oraclejdk8
+    - oraclejdk8
+    
+android:
+  components:
+    - tools
+    - build-tools-23.0.3
+    - android-23
+    - extra-android-m2repository
+    - extra-google-m2repository
+    - extra-android-support
+
+notifications:
+    email:
+        - maninwindow@hotmail.com
+        
+cache: false
+sudo: false
+
+install:
+    # Ensure Gradle wrapper is executable, download wrapper and show version
+    - chmod +x ./gradlew; ls -l gradlew; ./gradlew wrapper -v
+
+    # Download and show android dependencies
+    - ./gradlew androidDependencies
+
+script:
+    - ./gradlew library:check library:assemble
